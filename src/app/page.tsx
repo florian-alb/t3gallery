@@ -1,5 +1,6 @@
 import {db} from "~/server/db";
 import {SignedIn, SignedOut} from "@clerk/nextjs";
+import {UploadButton} from "~/utills/uploadthing";
 
 export const dynamic = "force-dynamic"
 
