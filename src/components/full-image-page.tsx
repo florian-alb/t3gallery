@@ -1,6 +1,4 @@
 import {getImage} from "~/server/queries";
-import Image from "next/image";
-import {Modal} from "~/app/@modal/(.)img/[id]/modal";
 import {clerkClient} from "@clerk/nextjs/server";
 
 export default async function FullImagePageView(props: { id: number }) {
