@@ -30,7 +30,7 @@ export default function RootLayout({children, modal}: {
                 </div>
             {modal}
             <div id="modal-root"/>
-            <Toaster/>
+            <Toaster richColors/>
             </body>
             </html>
         </ClerkProvider>
