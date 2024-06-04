@@ -1,7 +1,7 @@
 import {getImage} from "~/server/queries";
 import Image from "next/image";
 import {Modal} from "~/app/@modal/(.)img/[id]/modal";
-import FullImagePageView from "~/components/full-image-page";
+import FullImagePageView from "~/common/full-page-image-view";
 
 export default function ImgPage({params: {id: photoId},}: {
     params: { id: string };
